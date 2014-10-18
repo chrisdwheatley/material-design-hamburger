@@ -3,9 +3,7 @@
   "version": "0.0.1",
   "description": "android's material design hamburger animation in css",
   "main": "gulpfile.js",
-  "directories": {
-    "example": "example"
-  },
+  "directories": {},
   "dependencies": {},
   "devDependencies": {
     "gulp": "~3.8.8",
