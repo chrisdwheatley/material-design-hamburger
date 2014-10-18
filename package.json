@@ -1,0 +1,30 @@
+{
+  "name": "material-design-hamburger",
+  "version": "0.0.1",
+  "description": "android's material design hamburger animation in css",
+  "main": "gulpfile.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.8.8",
+    "gulp-autoprefixer": "~1.0.1",
+    "gulp-jshint": "~1.8.5",
+    "gulp-csslint": "~0.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "material",
+    "design",
+    "hambuger",
+    "css",
+    "android",
+    "animated",
+    "hambuger"
+  ],
+  "author": "Chris Wheatley <chriswheatley87@gmail.com>",
+  "license": "MIT"
+}
