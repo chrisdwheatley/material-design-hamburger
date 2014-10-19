@@ -6,12 +6,15 @@
     'click',
     function() {
 
-      return this.classList.contains(
-          'material-design-hamburger__icon--to-arrow') ?
-        this.classList
-        .toggle('material-design-hamburger__icon--from-arrow') : this.classList
-        .toggle(
-          'material-design-hamburger__icon--to-arrow');
+      var child = this.childNodes[1].classList;
+
+      if (child.contains('material-design-hamburger__icon--to-arrow')) {
+        child.remove('material-design-hamburger__icon--to-arrow');
+        child.add('material-design-hamburger__icon--from-arrow');
+      } else {
+        child.remove('material-design-hamburger__icon--from-arrow');
+        child.add('material-design-hamburger__icon--to-arrow');
+      }
 
     });
 
