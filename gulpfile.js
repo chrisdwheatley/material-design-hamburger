@@ -14,7 +14,9 @@ gulp.task('cssbuild', function() {
   return gulp.src('src/*.css')
     .pipe(csslint())
     .pipe(csslint.reporter())
-    .pipe(autoprefixer())
+    .pipe(autoprefixer({
+      browsers: ['last 2 versions']
+    }))
     .pipe(gulp.dest('dist'));
 });
 
