@@ -6,8 +6,6 @@
     'click',
     function() {
 
-      document.body.classList.toggle('nav-open');
-
       return this.classList.contains(
           'material-design-hamburger__icon--to-arrow') ?
         this.classList

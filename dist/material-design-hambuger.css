@@ -3,7 +3,7 @@
   position: absolute;
 }
 
-.material-design-hamburger__icon, .material-design-hamburger__icon::before, .material-design-hamburger__icon::after {
+.material-design-hamburger__icon, .material-design-hamburger__icon:before, .material-design-hamburger__icon:after {
   width: 100%;
   height: 10px;
   background: #111;
@@ -15,11 +15,11 @@
           animation-timing-function: ease-in-out;
 }
 
-.material-design-hamburger__icon::before {
+.material-design-hamburger__icon:before {
   bottom: 200%;
 }
 
-.material-design-hamburger__icon::after {
+.material-design-hamburger__icon:after {
   top: 200%;
 }
 
@@ -38,14 +38,14 @@
           animation-fill-mode: forwards;
 }
 
-.material-design-hamburger__icon--to-arrow::before {
+.material-design-hamburger__icon--to-arrow:before {
   -webkit-animation-name: material-design-hamburger__icon--slide-before;
           animation-name: material-design-hamburger__icon--slide-before;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 
-.material-design-hamburger__icon--to-arrow::after {
+.material-design-hamburger__icon--to-arrow:after {
   -webkit-animation-name: material-design-hamburger__icon--slide-after;
           animation-name: material-design-hamburger__icon--slide-after;
   -webkit-animation-fill-mode: forwards;
@@ -57,12 +57,12 @@
           animation-name: material-design-hamburger__icon--slide-from;
 }
 
-.material-design-hamburger__icon--from-arrow::before {
+.material-design-hamburger__icon--from-arrow:before {
   -webkit-animation-name: material-design-hamburger__icon--slide-before-from;
           animation-name: material-design-hamburger__icon--slide-before-from;
 }
 
-.material-design-hamburger__icon--from-arrow::after {
+.material-design-hamburger__icon--from-arrow:after {
   -webkit-animation-name: material-design-hamburger__icon--slide-after-from;
           animation-name: material-design-hamburger__icon--slide-after-from;
 }
