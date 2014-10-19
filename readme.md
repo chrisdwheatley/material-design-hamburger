@@ -2,13 +2,13 @@
 
 Android's Material Design hamburger animation built in CSS (with a sprinkle of JS).
 
-### Browser Support
-
-Currently supporting the 2 latest versions of each major browser (IE10+) with the aim to support IE8+ in the future.
-
 ### Example
 
 See [this pen][1] for a styled example.
+
+### Browser Support
+
+Currently supporting the 2 latest versions of each major browser (IE10+) with the aim to support IE8+ in the future.
 
 ### Installation & Usage
 
