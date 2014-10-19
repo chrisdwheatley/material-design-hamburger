@@ -1,0 +1,17 @@
+{
+  "name": "material-design-hamburger",
+  "version": "0.0.1",
+  "authors": [
+    "Chris Wheatley <chriswheatley87@gmail.com>"
+  ],
+  "description": "android's material design hamburger animation in css",
+  "keywords": [
+    "material",
+    "design",
+    "hambuger",
+    "css",
+    "android",
+    "animated"
+  ],
+  "license": "MIT"
+}
