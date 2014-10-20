@@ -2,7 +2,7 @@
 
 Android's Material Design hamburger animation built in CSS (with a sprinkle of JS).
 
-![Material Design Hamburger](https://i.imgur.com/rmhDpzs.gif)
+![Material Design Hamburger](https://i.imgur.com/B0PT1Lb.gif)
 
 ### Example Usage
 
