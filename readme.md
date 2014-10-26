@@ -70,6 +70,10 @@ __Add the following HTML elements.__
 		</span>
       </button>
     </section>
+    
+### In The Wild
+
+* [APK Mirror](http://www.apkmirror.com/) (only at viewport widths smaller than 993px)
 
 ### Roadmap
 
