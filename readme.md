@@ -22,12 +22,14 @@ __Include the CSS & JS files from the `dist` folder where desired within your pr
 
 __Add the following HTML elements.__
 
-	<section class="material-design-hamburger">
-      <button class="material-design-hamburger__icon">
-		<span class="material-design-hamburger__layer">
-		</span>
-      </button>
-    </section>
+```html
+<section class="material-design-hamburger">
+  <button class="material-design-hamburger__icon">
+    <span class="material-design-hamburger__layer">
+    </span>
+  </button>
+</section>
+```
 
 #### npm
 
@@ -43,12 +45,14 @@ __Include the CSS & JS where required.__
 
 __Add the following HTML elements.__
 
-	<section class="material-design-hamburger">
-	  <button class="material-design-hamburger__icon">
-		<span class="material-design-hamburger__layer">
-		</span>
-	  </button>
-	</section>
+```html
+<section class="material-design-hamburger">
+  <button class="material-design-hamburger__icon">
+  	<span class="material-design-hamburger__layer">
+  	</span>
+  </button>
+</section>
+```
 
 #### Bower
 
@@ -64,12 +68,14 @@ __Include the CSS & JS where required.__
 
 __Add the following HTML elements.__
 
-	<section class="material-design-hamburger">
-      <button class="material-design-hamburger__icon">
-		<span class="material-design-hamburger__layer">
-		</span>
-      </button>
-    </section>
+```html
+<section class="material-design-hamburger">
+  <button class="material-design-hamburger__icon">
+  	<span class="material-design-hamburger__layer">
+  	</span>
+  </button>
+</section>
+```
     
 ### In The Wild
 
