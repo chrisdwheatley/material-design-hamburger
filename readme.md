@@ -39,9 +39,13 @@ __Install the package (use --save or --save-dev if required).__
 
 __Include the CSS & JS where required.__
 
-`<link rel="stylesheet" href="./node_modules/material-design-hamburger/dist/material-design-hamburger.css">`
+```html
+<link rel="stylesheet" href="./node_modules/material-design-hamburger/dist/material-design-hamburger.css">
+```
 
-`<script src="./node_modules/material-design-hamburger/dist/material-design-hamburger.js"></script>`
+```html
+<script src="./node_modules/material-design-hamburger/dist/material-design-hamburger.js"></script>
+```
 
 __Add the following HTML elements.__
 
@@ -62,9 +66,12 @@ __Install the package (use --save or --save-dev if required).__
 
 __Include the CSS & JS where required.__
 
-`<link rel="stylesheet" href="./bower_components/material-design-hamburger/dist/material-design-hamburger.css">`
-
-`<script src="./bower_components/material-design-hamburger/dist/material-design-hamburger.js"></script>`
+```html
+<link rel="stylesheet" href="./bower_components/material-design-hamburger/dist/material-design-hamburger.css">
+```
+```html
+<script src="./bower_components/material-design-hamburger/dist/material-design-hamburger.js"></script>
+```
 
 __Add the following HTML elements.__
 
