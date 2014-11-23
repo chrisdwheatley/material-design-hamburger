@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "author": "Chris Wheatley <chriswheatley87@gmail.com>",
   "description": "android's material design hamburger animation in css",
+  "main": "./dist/material-design-hamburger.js",
+  "style": "./dist/material-design-hamburger.css",
   "devDependencies": {
     "gulp": "~3.8.8",
     "gulp-autoprefixer": "~1.0.1",
@@ -11,6 +13,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/swirlycheetah/material-design-hamburger.git"
   },
   "keywords": [
     "material",
