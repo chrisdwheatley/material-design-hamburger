@@ -2,12 +2,10 @@
 
   module.exports = materialDesignHamburger;
 
-  function materialDesignHamburger() {
+  function materialDesignHamburger(el) {
     'use strict';
 
-    document.querySelector('.material-design-hamburger__icon').addEventListener(
-        'click',
-        function() {
+    el.addEventListener('click', function() {
       var child = this.childNodes[1].classList;
 
       if (child.contains('material-design-hamburger__icon--to-arrow')) {
