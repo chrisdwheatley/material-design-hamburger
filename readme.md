@@ -45,6 +45,8 @@ __Include the CSS & JS where required.__
 
 ```html
 <script src="./node_modules/material-design-hamburger/dist/material-design-hamburger.js"></script>
+
+<script>materialDesignHamburger()</script>
 ```
 
 __Add the following HTML elements.__
@@ -71,6 +73,8 @@ __Include the CSS & JS where required.__
 ```
 ```html
 <script src="./bower_components/material-design-hamburger/dist/material-design-hamburger.js"></script>
+
+<script>materialDesignHamburger()</script>
 ```
 
 __Add the following HTML elements.__
