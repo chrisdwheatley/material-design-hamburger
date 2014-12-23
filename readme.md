@@ -54,8 +54,8 @@ __Add the following HTML elements.__
 ```html
 <section class="material-design-hamburger">
   <button class="material-design-hamburger__icon">
-  	<span class="material-design-hamburger__layer">
-  	</span>
+    <span class="material-design-hamburger__layer">
+    </span>
   </button>
 </section>
 ```
@@ -82,11 +82,31 @@ __Add the following HTML elements.__
 ```html
 <section class="material-design-hamburger">
   <button class="material-design-hamburger__icon">
-  	<span class="material-design-hamburger__layer">
-  	</span>
+    <span class="material-design-hamburger__layer">
+    </span>
   </button>
 </section>
 ```
+
+### Contributing
+
+All contributions, no matter how big or small, are welcome. Follow these steps to contribute.
+
+* Clone the repository
+
+`git clone git@github.com:swirlycheetah/material-design-hamburger.git && cd material-design-hamburger`
+
+* Install the required dependencies
+
+`npm install`
+
+* Make amendments in the `src` folder followed by running `gulp build` (or `./node_modules/gulp/bin/gulp.js build`) to build the changes in the dist folder
+
+* Ensure there are no lint errors
+
+* Ensure the example in the `examples/basic-example` folder still works as required
+
+* Push your changes and submit a pull request
     
 ### In The Wild
 
