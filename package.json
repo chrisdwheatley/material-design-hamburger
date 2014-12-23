@@ -1,6 +1,6 @@
 {
   "name": "material-design-hamburger",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Chris Wheatley <chriswheatley87@gmail.com>",
   "description": "android's material design hamburger animation in css",
   "main": "./dist/material-design-hamburger.js",
