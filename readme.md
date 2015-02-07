@@ -22,12 +22,14 @@ __Include the CSS & JS files from the `dist` folder where desired within your pr
 
 __Add the following HTML elements.__
 
-	<section class="material-design-hamburger">
-      <button class="material-design-hamburger__icon">
-		<span class="material-design-hamburger__layer">
-		</span>
-      </button>
-    </section>
+```html
+<section class="material-design-hamburger">
+  <button class="material-design-hamburger__icon">
+    <span class="material-design-hamburger__layer">
+    </span>
+  </button>
+</section>
+```
 
 #### npm
 
@@ -37,18 +39,26 @@ __Install the package (use --save or --save-dev if required).__
 
 __Include the CSS & JS where required.__
 
-`<link rel="stylesheet" href="./node_modules/material-design-hamburger/dist/material-design-hamburger.css">`
+```html
+<link rel="stylesheet" href="./node_modules/material-design-hamburger/dist/material-design-hamburger.css">
+```
 
-`<script src="./node_modules/material-design-hamburger/dist/material-design-hamburger.js"></script>`
+```html
+<script src="./node_modules/material-design-hamburger/dist/material-design-hamburger.js"></script>
+
+<script>materialDesignHamburger()</script>
+```
 
 __Add the following HTML elements.__
 
-	<section class="material-design-hamburger">
-	  <button class="material-design-hamburger__icon">
-		<span class="material-design-hamburger__layer">
-		</span>
-	  </button>
-	</section>
+```html
+<section class="material-design-hamburger">
+  <button class="material-design-hamburger__icon">
+    <span class="material-design-hamburger__layer">
+    </span>
+  </button>
+</section>
+```
 
 #### Bower
 
@@ -58,18 +68,45 @@ __Install the package (use --save or --save-dev if required).__
 
 __Include the CSS & JS where required.__
 
-`<link rel="stylesheet" href="./bower_components/material-design-hamburger/dist/material-design-hamburger.css">`
+```html
+<link rel="stylesheet" href="./bower_components/material-design-hamburger/dist/material-design-hamburger.css">
+```
+```html
+<script src="./bower_components/material-design-hamburger/dist/material-design-hamburger.js"></script>
 
-`<script src="./bower_components/material-design-hamburger/dist/material-design-hamburger.js"></script>`
+<script>materialDesignHamburger()</script>
+```
 
 __Add the following HTML elements.__
 
-	<section class="material-design-hamburger">
-      <button class="material-design-hamburger__icon">
-		<span class="material-design-hamburger__layer">
-		</span>
-      </button>
-    </section>
+```html
+<section class="material-design-hamburger">
+  <button class="material-design-hamburger__icon">
+    <span class="material-design-hamburger__layer">
+    </span>
+  </button>
+</section>
+```
+
+### Contributing
+
+All contributions, no matter how big or small, are welcome. Follow these steps to contribute.
+
+* Clone the repository
+
+`git clone git@github.com:swirlycheetah/material-design-hamburger.git && cd material-design-hamburger`
+
+* Install the required dependencies
+
+`npm install`
+
+* Make amendments in the `src` folder followed by running `gulp build` (or `./node_modules/gulp/bin/gulp.js build`) to build the changes in the dist folder
+
+* Ensure there are no lint errors
+
+* Ensure the example in the `examples/basic-example` folder still works as required
+
+* Push your changes and submit a pull request
     
 ### In The Wild
 
